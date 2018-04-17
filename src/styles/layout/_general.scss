@@ -1,0 +1,13 @@
+body {
+  background: linear-gradient(to bottom, $base-bg-color 0%, $base-bg-color 40%, $base-bg-color 100%);
+  color: white;
+  font-size: $base-font-size;
+}
+
+a,
+button {
+  transition: all 0.3s;
+  &:hover {
+    text-decoration: none;
+  }
+}

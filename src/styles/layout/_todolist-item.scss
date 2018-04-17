@@ -1,0 +1,39 @@
+.todo-list__item {
+  border-bottom: 1px solid $border-color;
+  display: flex;
+  justify-content: space-between;
+  .updating {
+    width: 100%;
+  }
+}
+
+.todo-list__content {
+  align-items: center;
+  display: flex;
+  @include media-breakpoint-up(md) {
+    width: 70%;
+  }
+}
+
+.todo-item__done {
+  color: rgba(white, 0.2);
+  text-decoration: line-through;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 800ms ease;
+}

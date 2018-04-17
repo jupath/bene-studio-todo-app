@@ -1,0 +1,27 @@
+// Colors
+$blue: #80cdde;
+$base-bg-color: #26232c;
+$border-color: #3b3841;
+$header-bg-color: #322f39;
+$checkbox-bg-color: #ddd; 
+
+$theme-colors: (
+  primary: $blue
+);
+
+// Font
+$font-family-sans-serif: 'Roboto Slab', serif;
+$base-font-size: 1.3rem;
+
+// Spacers
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: ($spacer * 0.9),
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 9),
+  7: ($spacer * 16)
+);
